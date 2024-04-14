@@ -1,7 +1,31 @@
+/*Le doy las caracteristicas al body*/
 body {
-    background-image: ;
+    font-family: "Roboto";
+    color: #ffffff;
+    background: #000000;
 }
-.navbar-brand {
-    background-color: blue;
-    background-size: 30px;
+.icon {
+    color: #ffffff;
+    align: right;
+    }
+.Pie {
+display: flex;
+}
+h2 {
+    text-transform: uppercase;
+}
+.carousel-item img {
+    max-height: 100vh;
+    }
+.Quienes {
+    text-align: center;
+}
+.logo img{
+    height: 30px;
+}
+.logo {
+    display: flex;
+    position: absolute;
+    padding: 0 20px;
+    top: 20px;
 }
