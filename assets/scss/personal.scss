@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color: #ffffff;
+}
+.carousel-item {
+    height: 700px;
+    width: 90%;
+}
+
+.carousel-item img {
+    background-size: contain;
+    // object-fit: contain;
+    height: 900px;
+}
+
+@media screen and (max-width: 400px) {
+    .carousel-inner {
+        width: 400px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:400px){
+    .card mb-12 {
+        background-color: rgba(51, 50, 50, 0.137);
+        color: #ffffff;
+        height: 300px;
+    }
+    
+}
+.img-fluid {
+    width: 600px;
+    height: auto;
+}
+@media screen and (max-width:200px){
+    .card1 mb-6 {
+        background-color: rgba(51, 50, 50, 0.137);
+        color: #ffffff;
+        height: 300px;
+    }
+    
+}
+.img-fluid1 {
+    width: 180px;
+    height: 210px;
+}
+.container__destacados1 {
+    display: flex;
+    margin-left: 25px;
+    padding: 20px;
+    justify-content:space-around;
+}
+.container__destacados2 {
+    display: flex;
+    margin-left: 25px;
+    padding: 20px;
+    justify-content:space-around;
+}
+.Text__precios {
+    display: inline-flex;
+    justify-content:space-between;
+}
+.card-img-top {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+
+        width: 50px;
+        height: 50px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        margin-bottom: 15px;
+}
+.card {
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+}
+.card__text--testimonio {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#contacto {
+    width: 70%;
+}
+.body {
+    background-color: black;
+}
+
