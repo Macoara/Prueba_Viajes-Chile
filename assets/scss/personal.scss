@@ -4,13 +4,13 @@ body {
 }
 .carousel-item {
     height: 700px;
-    width: 90%;
+    width: 100%;
 }
 
 .carousel-item img {
-    background-size: contain;
-    // object-fit: contain;
-    height: 900px;
+    background-size: 100%;
+    object-fit: contain;
+    height: auto;
 }
 
 @media screen and (max-width: 400px) {
@@ -28,8 +28,9 @@ body {
     
 }
 .img-fluid {
-    width: 600px;
-    height: auto;
+    width: 100%;
+    text-align: right;
+    border-radius: 5px;
 }
 @media screen and (max-width:200px){
     .card1 mb-6 {
@@ -43,23 +44,11 @@ body {
     width: 180px;
     height: 210px;
 }
-.container__destacados1 {
+#testimonios {
     display: flex;
-    margin-left: 25px;
-    padding: 20px;
-    justify-content:space-around;
+    flex-flow: row wrap;
 }
-.container__destacados2 {
-    display: flex;
-    margin-left: 25px;
-    padding: 20px;
-    justify-content:space-around;
-}
-.Text__precios {
-    display: inline-flex;
-    justify-content:space-between;
-}
-.card-img-top {
+.testimonio {
     display: flex;
     flex-direction: column;
     color: antiquewhite;
@@ -68,25 +57,21 @@ body {
     text-align: center;
     margin-bottom: 15px;
 
+    &__texto {
+        font-style: italic;
+    }
+
+    &__imagen {
         width: 50px;
         height: 50px;
         border: 1px solid #fff;
         border-radius: 50px;
         margin-bottom: 15px;
-}
-.card {
-    justify-content: space-around;
-    align-items: center;
-    font-style: italic;
-}
-.card__text--testimonio {
-    display: flex;
-    flex-direction: column;
-    color: antiquewhite;
-    align-items: center;
-    width: 300px;
-    text-align: center;
-    margin-bottom: 15px;
+    }
+
+    &__nombre {
+        font-size: 1.5em;
+    }
 }
 #contacto {
     width: 70%;
@@ -94,4 +79,9 @@ body {
 .body {
     background-color: black;
 }
-
+#exampleModalLabel {
+    color: #000000;
+}
+.modal-body {
+    color: #000000;
+}
